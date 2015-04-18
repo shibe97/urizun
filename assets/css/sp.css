@@ -159,6 +159,13 @@ input, select {
 .Header {
   display: none; }
 
+.Sns__facebook {
+  float: left; }
+.Sns__twitter {
+  float: left;
+  padding-top: 7px;
+  margin-left: 15px; }
+
 .Top {
   background-image: url("../images/img_top_03.png");
   background-repeat: no-repeat;

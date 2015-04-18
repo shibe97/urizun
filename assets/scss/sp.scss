@@ -18,6 +18,17 @@
     display: none;
 }
 
+.Sns {
+    &__facebook {
+        float: left;
+    }
+    &__twitter {
+        float: left;
+        padding-top: 7px;
+        margin-left: 15px;
+    }
+}
+
 .Top {
     @include retina-image("../images/img_top_03", 125px 330px);
     background-repeat: no-repeat;
