@@ -157,7 +157,7 @@ input, select {
   padding: 10px 0; }
   .Header__sns {
     position: absolute;
-    top: 14px;
+    top: 7px;
     left: 15px; }
   .Header__nav {
     text-align: center; }
@@ -170,7 +170,9 @@ input, select {
 .Sns__facebook {
   display: inline-block; }
 .Sns__twitter {
-  display: inline-block; }
+  display: inline-block;
+  padding-top: 7px;
+  margin-left: 15px; }
 
 .Top {
   background-image: url("../images/img_top_01.png");

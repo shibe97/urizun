@@ -20,7 +20,7 @@
 
     &__sns {
         position: absolute;
-        top: 14px;
+        top: 7px;
         left: 15px;
     }
 
@@ -41,6 +41,8 @@
     }
     &__twitter {
         display: inline-block;
+        padding-top: 7px;
+        margin-left: 15px;
     }
 }
 
