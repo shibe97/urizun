@@ -18,6 +18,12 @@
     background-color: #fff;
     padding: 10px 0;
 
+    &__sns {
+        position: absolute;
+        top: 14px;
+        left: 15px;
+    }
+
     &__nav {
         text-align: center;
         li {
@@ -26,6 +32,15 @@
             font-size: 14px;
             font-weight: bold;
         }
+    }
+}
+
+.Sns {
+    &__facebook {
+        display: inline-block;
+    }
+    &__twitter {
+        display: inline-block;
     }
 }
 
@@ -217,6 +232,9 @@
     &__name {
         font-size: 14px;
         text-align: right;
+    }
+    &__sns {
+        display: none;
     }
 }
 

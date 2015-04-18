@@ -338,6 +338,8 @@ input, select {
   .Message__name {
     font-size: 14px;
     text-align: right; }
+  .Message__sns {
+    margin-top: 40px; }
 
 .Footer__copyright {
   font-size: 10px;

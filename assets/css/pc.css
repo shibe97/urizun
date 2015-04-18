@@ -155,6 +155,10 @@ input, select {
 .Header {
   background-color: #fff;
   padding: 10px 0; }
+  .Header__sns {
+    position: absolute;
+    top: 14px;
+    left: 15px; }
   .Header__nav {
     text-align: center; }
     .Header__nav li {
@@ -162,6 +166,11 @@ input, select {
       display: inline-block;
       font-size: 14px;
       font-weight: bold; }
+
+.Sns__facebook {
+  display: inline-block; }
+.Sns__twitter {
+  display: inline-block; }
 
 .Top {
   background-image: url("../images/img_top_01.png");
@@ -323,6 +332,8 @@ input, select {
   .Message__name {
     font-size: 14px;
     text-align: right; }
+  .Message__sns {
+    display: none; }
 
 .Footer__copyright {
   font-size: 10px;
