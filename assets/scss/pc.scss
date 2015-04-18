@@ -37,10 +37,10 @@
 
 .Sns {
     &__facebook {
-        display: inline-block;
+        float: left;
     }
     &__twitter {
-        display: inline-block;
+        float: left;
         padding-top: 7px;
         margin-left: 15px;
     }

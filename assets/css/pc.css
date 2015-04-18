@@ -168,9 +168,9 @@ input, select {
       font-weight: bold; }
 
 .Sns__facebook {
-  display: inline-block; }
+  float: left; }
 .Sns__twitter {
-  display: inline-block;
+  float: left;
   padding-top: 7px;
   margin-left: 15px; }
 
