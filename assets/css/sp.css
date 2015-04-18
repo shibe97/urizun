@@ -1,0 +1,335 @@
+@charset "UTF-8";
+/* 
+html5doctor.com Reset Stylesheet v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+ */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+@font-face {
+  font-family: 'NotoSansCJKjp';
+  font-style: bold;
+  src: url('../font/NotoSansCJKjp-Bold.otf'); }
+
+@font-face {
+  font-family: 'NotoSansCJKjp';
+  font-style: normal;
+  src: url('../font/NotoSansCJKjp-DemiLight.otf'); }
+
+body {
+  font-family: "NotoSansCJKjp", Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.7;
+  color: #1f2a68; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+  color: #1f2a68; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+.w620px {
+  width: 620px; }
+
+.mt5px {
+  margin-top: 5px; }
+
+.mt20px {
+  margin-top: 20px; }
+
+.mt30px {
+  margin-top: 30px; }
+
+.mt40px {
+  margin-top: 40px; }
+
+.mt60px {
+  margin-top: 60px; }
+
+.pt20px {
+  padding-top: 20px; }
+
+.pt40px {
+  padding-top: 40px; }
+
+.f14 {
+  font-size: 14px; }
+
+.f16 {
+  font-size: 16px; }
+
+.txtL {
+  text-align: left; }
+
+.txtR {
+  text-align: right; }
+
+.txtBold {
+  font-weight: bold; }
+
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
+.cf:before, .cf:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  visibility: hidden; }
+
+.cf:after {
+  clear: both; }
+
+.cf {
+  zoom: 1; }
+
+.Bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-image: url("../images/bg_okinawa_04.jpg");
+  z-index: -1; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .Bg {
+      background-image: url("../images/bg_okinawa_04_2x.jpg");
+      background-size: 320px 480px; } }
+
+.Header {
+  display: none; }
+
+.Top {
+  background-image: url("../images/img_top_03.png");
+  background-repeat: no-repeat;
+  background-position: right top; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .Top {
+      background-image: url("../images/img_top_03_2x.png");
+      background-size: 125px 330px; } }
+  .Top__container {
+    background-image: url("../images/img_top_04.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    padding: 35px 0 20px; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      .Top__container {
+        background-image: url("../images/img_top_04_2x.png");
+        background-size: 130px 335px; } }
+  .Top__logo {
+    background-image: url("../images/txt_logo_01.png");
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 160px;
+    height: 90px;
+    margin: 0 auto; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      .Top__logo {
+        background-image: url("../images/txt_logo_01_2x.png");
+        background-size: 160px 90px; } }
+  .Top__txt01 {
+    background-image: url("../images/txt_top_03.png");
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 286px;
+    height: 231px;
+    margin: 20px auto; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      .Top__txt01 {
+        background-image: url("../images/txt_top_03_2x.png");
+        background-size: 286px 231px; } }
+  .Top__txt02 {
+    background-image: url("../images/txt_top_04.png");
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 239px;
+    height: 83px;
+    margin: 0 auto; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      .Top__txt02 {
+        background-image: url("../images/txt_top_04_2x.png");
+        background-size: 239px 83px; } }
+  .Top__scroll {
+    text-align: center;
+    color: #fff;
+    background-image: url("../images/icn_scroll_02.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 16px;
+    margin-top: 15px; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      .Top__scroll {
+        background-image: url("../images/icn_scroll_02_2x.png");
+        background-size: 24px 12px; } }
+
+.Production {
+  background-color: #fff;
+  padding: 30px 0;
+  text-align: center; }
+  .Production__title {
+    font-size: 14px; }
+  .Production__info {
+    font-size: 8px;
+    margin-top: 15px; }
+  .Production__facebook {
+    display: inline-block;
+    background-image: url("../images/icn_fb_02.png");
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin: 15px 5px; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      .Production__facebook {
+        background-image: url("../images/icn_fb_02_2x.png");
+        background-size: 30px 30px; } }
+  .Production__twitter {
+    display: inline-block;
+    background-image: url("../images/icn_tw_02.png");
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin: 15px 5px; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      .Production__twitter {
+        background-image: url("../images/icn_tw_02_2x.png");
+        background-size: 30px 30px; } }
+  .Production__hallTitle {
+    display: inline-block;
+    margin: 0 5px; }
+  .Production__hallName {
+    display: inline-block;
+    margin: 0 5px;
+    background-image: url("../images/icn_arrow_02.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 12px; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      .Production__hallName {
+        background-image: url("../images/icn_arrow_02_2x.png");
+        background-size: 9px 10px; } }
+
+.Description {
+  background-color: #fff; }
+  .Description__container {
+    background-image: url("../images/bg_okinawa_03.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 250px 15px 30px; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      .Description__container {
+        background-image: url("../images/bg_okinawa_03_2x.jpg");
+        background-size: 320px 250px; } }
+  .Description__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0; }
+  .Description__txt01 {
+    font-weight: bold; }
+  .Description__txt02 {
+    font-size: 14px; }
+
+.Urizun {
+  background-image: url("../images/bg_urizun_02.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #fff;
+  padding: 250px 15px 30px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .Urizun {
+      background-image: url("../images/bg_urizun_02_2x.jpg");
+      background-size: 320px 250px; } }
+  .Urizun__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0; }
+  .Urizun__haiku {
+    font-weight: bold; }
+  .Urizun__desc {
+    font-size: 14px; }
+
+.Message {
+  background-image: url("../images/img_message_02.jpg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #fff;
+  padding: 250px 15px 30px; }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+    .Message {
+      background-image: url("../images/img_message_02_2x.jpg");
+      background-size: 320px 250px; } }
+  .Message__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0 20px; }
+  .Message__txt {
+    font-size: 14px; }
+  .Message__name {
+    font-size: 14px;
+    text-align: right; }
+
+.Footer__copyright {
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  background-color: #1f2a68; }

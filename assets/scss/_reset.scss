@@ -23,9 +23,22 @@ time, mark, audio, video {
     vertical-align:baseline;
     background:transparent;
 }
+
+@font-face {
+    font-family: 'NotoSansCJKjp';
+    font-style: bold;
+    src: url('../font/NotoSansCJKjp-Bold.otf');
+}
+@font-face {
+    font-family: 'NotoSansCJKjp';
+    font-style: normal;
+    src: url('../font/NotoSansCJKjp-DemiLight.otf');
+}
+
 body {
-    font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    font-family: "NotoSansCJKjp", Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     line-height: 1.7;
+    color: #1f2a68;
 }
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section { 

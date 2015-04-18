@@ -1,0 +1,196 @@
+@import "colors";
+@import "reset";
+@import "bourbon";
+@import "oo";
+
+.Wrapper {
+}
+
+.Bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    @include retina-image("../images/bg_okinawa_04", 320px 480px, "jpg");
+    z-index: -1;
+}
+
+.Header {
+    display: none;
+}
+
+.Top {
+    @include retina-image("../images/img_top_03", 125px 330px);
+    background-repeat: no-repeat;
+    background-position: right top;
+
+    &__container {
+        @include retina-image("../images/img_top_04", 130px 335px);
+        background-repeat: no-repeat;
+        background-position: left top;
+        padding: 35px 0 20px;
+    }
+    
+    &__logo {
+        @include retina-image("../images/txt_logo_01", 160px 90px);
+        overflow: hidden;
+        text-indent: -9999px;
+        width: 160px;
+        height: 90px;
+        margin: 0 auto;
+    }
+    &__txt01 {
+        @include retina-image("../images/txt_top_03", 286px 231px);
+        overflow: hidden;
+        text-indent: -9999px;
+        width: 286px;
+        height: 231px;
+        margin: 20px auto;
+    }
+    &__txt02 {
+        @include retina-image("../images/txt_top_04", 239px 83px);
+        overflow: hidden;
+        text-indent: -9999px;
+        width: 239px;
+        height: 83px;
+        margin: 0 auto;
+    }
+    &__scroll {
+        text-align: center;
+        color: #fff;
+        @include retina-image("../images/icn_scroll_02", 24px 12px);
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        padding-bottom: 16px;
+        margin-top: 15px;
+    }
+}
+
+.Production {
+    background-color: #fff;
+    padding: 30px 0;
+    text-align: center;
+
+    &__title {
+        font-size: 14px;
+    }
+
+    &__info {
+        font-size: 8px;
+        margin-top: 15px;
+    }
+
+    &__facebook {
+        display: inline-block;
+        @include retina-image("../images/icn_fb_02", 30px 30px);
+        width: 30px;
+        height: 30px;
+        text-indent: -9999px;
+        overflow: hidden;
+        margin: 15px 5px;
+    }
+
+    &__twitter {
+        display: inline-block;
+        @include retina-image("../images/icn_tw_02", 30px 30px);
+        width: 30px;
+        height: 30px;
+        text-indent: -9999px;
+        overflow: hidden;
+        margin: 15px 5px;
+    }
+
+    &__hall {
+    }
+
+    &__hallTitle {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    &__hallName {
+        display: inline-block;
+        margin: 0 5px;
+        @include retina-image("../images/icn_arrow_02", 9px 10px);
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding-left: 12px;
+    }
+}
+
+.Description {
+    background-color: #fff;
+
+    &__container {
+        @include retina-image("../images/bg_okinawa_03", 320px 250px, "jpg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        padding: 250px 15px 30px;
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 30px 0;
+    }
+
+    &__txt01 {
+        font-weight: bold;
+    }
+
+    &__txt02 {
+        font-size: 14px;
+    }
+}
+
+.Urizun {
+    @include retina-image("../images/bg_urizun_02", 320px 250px, "jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #fff;
+    padding: 250px 15px 30px;
+
+    &__title {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 30px 0;
+    }
+
+    &__haiku {
+        font-weight: bold;
+    }
+
+    &__desc {
+        font-size: 14px;
+    }
+}
+
+.Message {
+    @include retina-image("../images/img_message_02", 320px 250px, "jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #fff;
+    padding: 250px 15px 30px;
+
+    &__title {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 30px 0 20px;
+    }
+    &__txt {
+        font-size: 14px;
+    }
+    &__name {
+        font-size: 14px;
+        text-align: right;
+    }
+}
+
+.Footer {
+    &__copyright {
+        font-size: 10px;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        background-color: #1f2a68;
+    }
+}
