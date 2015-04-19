@@ -67,7 +67,8 @@
         @include retina-image("../images/icn_scroll_02", 24px 12px);
         background-repeat: no-repeat;
         background-position: center bottom;
-        padding-bottom: 16px;
+        padding-bottom: 12px;
+        font-size: 12px;
         margin-top: 12px;
     }
 }
@@ -160,10 +161,12 @@
 
     &__txt01 {
         font-weight: bold;
+        text-align: justify;
     }
 
     &__txt02 {
         font-size: 14px;
+        text-align: justify;
     }
 }
 
@@ -186,6 +189,7 @@
 
     &__desc {
         font-size: 14px;
+        text-align: justify;
     }
 }
 
@@ -203,6 +207,7 @@
     }
     &__txt {
         font-size: 14px;
+        text-align: justify;
     }
     &__name {
         font-size: 14px;
