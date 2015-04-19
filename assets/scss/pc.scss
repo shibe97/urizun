@@ -105,9 +105,15 @@
     padding: 40px;
     text-align: center;
 
+    &__info {
+        font-size: 12px;
+    }
+
     &__facebook {
         display: inline-block;
-        background: url("../images/icn_fb_01.png") no-repeat left top;
+        @include retina-image("../images/icn_fb_01", 30px 30px);
+        background-repeat: no-repeat;
+        background-position: left top;
         width: 30px;
         height: 30px;
         text-indent: -9999px;
@@ -126,7 +132,9 @@
 
     &__twitter {
         display: inline-block;
-        background: url("../images/icn_tw_01.png") no-repeat left top;
+        @include retina-image("../images/icn_tw_01", 30px 30px);
+        background-repeat: no-repeat;
+        background-position: left top;
         width: 30px;
         height: 30px;
         text-indent: -9999px;
