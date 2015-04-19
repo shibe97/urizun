@@ -157,7 +157,7 @@ input, select {
   padding: 8px 0; }
   .Header__sns {
     position: absolute;
-    top: 7px;
+    top: 2px;
     left: 15px; }
   .Header__nav {
     text-align: center; }
@@ -171,7 +171,7 @@ input, select {
   float: left; }
 .Sns__twitter {
   float: left;
-  padding-top: 7px;
+  padding-top: 12px;
   margin-left: 15px; }
 
 .Top {
