@@ -14,18 +14,20 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   background: transparent; }
 
 @font-face {
-  font-family: 'NotoSansCJKjp';
+  font-family: 'NotoSansCJKjp-Bold';
   font-style: bold;
-  src: url('../font/NotoSansCJKjp-Bold.otf'); }
+  src: url('../font/NotoSansCJKjp-Bold.otf');
+  src: url('../font/NotoSansCJKjp-Bold.woff') format('woff'); }
 
 @font-face {
   font-family: 'NotoSansCJKjp';
   font-style: normal;
-  src: url('../font/NotoSansCJKjp-DemiLight.otf'); }
+  src: url('../font/NotoSansCJKjp-DemiLight.otf');
+  src: url('../font/NotoSansCJKjp-DemiLight.woff') format('woff'); }
 
 body {
-  font-family: "NotoSansCJKjp", Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-  line-height: 2;
+  font-family: "NotoSansCJKjp", "NotoSansCJKjp-Bold", Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.7;
   color: #1f2a68; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -297,7 +299,7 @@ input, select {
   .Description__container {
     background: url("../images/bg_okinawa_02.jpg") no-repeat right top;
     padding-right: 540px;
-    padding-bottom: 100px;
+    padding-bottom: 210px;
     width: 400px;
     margin: 0 auto; }
   .Description__title {
@@ -338,7 +340,7 @@ input, select {
     background-repeat: no-repeat;
     background-position: 60px 60px;
     background-color: #fff;
-    padding: 60px 60px 60px 380px;
+    padding: 60px 60px 50px 380px;
     width: 500px;
     margin: 0 auto; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
