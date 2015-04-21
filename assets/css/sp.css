@@ -219,6 +219,9 @@ input, select {
         background-image: url("../images/icn_scroll_02_2x.png");
         background-size: 24px 12px; } }
 
+.MainImg {
+  display: none; }
+
 .Production {
   background-color: #fff;
   padding: 30px 0;

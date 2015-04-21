@@ -6,14 +6,6 @@
 .Wrapper {
 }
 
-.Bg01 {
-    width: 100%;
-    height: 1120px;
-    position: fixed;
-    background: url("../images/bg_okinawa_01.jpg") no-repeat center top;
-    z-index: -1;
-}
-
 .Header {
     background-color: #fff;
     padding: 8px 0;
@@ -25,7 +17,7 @@
     }
 
     &__nav {
-        text-align: center;
+        text-align: right;
         li {
             margin: 0 10px;
             display: inline-block;
@@ -47,61 +39,11 @@
 }
 
 .Top {
-    @include retina-image("../images/img_top_01", 290px 700px);
-    background-repeat: no-repeat;
-    background-position: right top;
-    position: relative;
-
-    &__container {
-        @include retina-image("../images/img_top_02", 350px 700px);
-        background-repeat: no-repeat;
-        background-position: left top;
-        padding: 140px 0 35px;
-    }
-    
-    &__logo {
-        @include retina-image("../images/txt_logo_01", 300px 170px);
-        overflow: hidden;
-        text-indent: -9999px;
-        width: 300px;
-        height: 170px;
-        margin: 0 auto;
-    }
-    &__txt01 {
-        @include retina-image("../images/txt_top_01", 500px 70px);
-        overflow: hidden;
-        text-indent: -9999px;
-        width: 500px;
-        height: 70px;
-        margin: 30px auto 80px;
-    }
-    &__txt02 {
-        @include retina-image("../images/txt_top_02", 540px 90px);
-        overflow: hidden;
-        text-indent: -9999px;
-        width: 540px;
-        height: 90px;
-        margin: 0 auto;
-    }
-    &__plane {
-        background: url("../images/icn_plane_01.png") no-repeat left top;
-        width: 140px;
-        height: 54px;
-        position: absolute;
-        top: 50px;
-        right: 260px;
-    }
-    &__scroll {
-        text-align: center;
-        color: #fff;
-        background: url("../images/icn_scroll_01.png") no-repeat center bottom;
-        padding-bottom: 16px;
-        margin-top: 37px;
-    }
+    display: none;
 }
 
 .MainImg {
-    display: none;
+    width: 100%;
 }
 
 .Production {
@@ -176,10 +118,10 @@
 
     &__container {
         background: url("../images/bg_okinawa_02.jpg") no-repeat right top;
-        padding-right: 540px;
-        padding-bottom: 210px;
-        width: 400px;
-        margin: 0 auto;
+        background-size: 50%;
+        padding-right: 54%;
+        padding-left: 20px;
+        padding-bottom: 40px;
     }
 
     &__title {
@@ -237,7 +179,7 @@
         background-position: 60px 60px;
         background-color: #fff;
         padding: 60px 60px 50px 380px;
-        width: 500px;
+        max-width: 500px;
         margin: 0 auto;
     }
     &__title {
