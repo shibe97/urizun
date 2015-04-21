@@ -11,10 +11,8 @@
     $(window).scroll(function(e){
         e.preventDefault();
         scroll = $(this).scrollTop();
-        if(scroll <= 0){
-            $bg01.css({ top : 0});
-        } else if(0 < scroll && scroll <= 1000){
-            $bg01.css({ top : -scroll*1.5});
+        if(scroll <= 1000){
+            $bg01.css({ top : -400});
         } else if(1000 < scroll){
             $bg01.css({ top : 0});
         }
