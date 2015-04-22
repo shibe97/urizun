@@ -38,11 +38,11 @@
     }
     
     &__logo {
-        @include retina-image("../images/txt_logo_01", 160px 90px);
+        @include retina-image("../images/txt_logo_02", 160px 91px);
         overflow: hidden;
         text-indent: -9999px;
         width: 160px;
-        height: 90px;
+        height: 91px;
         margin: 0 auto;
     }
     &__txt01 {
