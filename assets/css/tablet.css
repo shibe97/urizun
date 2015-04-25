@@ -219,6 +219,8 @@ input, select {
     margin: 0 5px;
     background: url("../images/icn_arrow_01.png") no-repeat left center;
     padding-left: 12px; }
+  .Production__maeuri {
+    display: none; }
 
 .Description {
   background-color: #fff; }
