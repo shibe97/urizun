@@ -11,6 +11,11 @@
     $(window).scroll(function(e){
         e.preventDefault();
         scroll = $(this).scrollTop();
+        if(scroll <= 0){
+            $(".Header").removeClass("scroll");
+        } else {
+            $(".Header").addClass("scroll");
+        }
         if(scroll <= 1000){
             $bg01.css({ top : -400});
         } else if(1000 < scroll){
