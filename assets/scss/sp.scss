@@ -4,8 +4,8 @@
 @import "oo";
 
 .Wrapper {
-    @include retina-image("../images/bg_okinawa_04", 360px 543px, "jpg");
-    background-position: center top;
+    @include retina-image("../images/bg_okinawa_04", 375px 636px, "jpg");
+    background-position: center -20px;
     background-repeat: no-repeat;
     background-color: #1f2a68;
 }
