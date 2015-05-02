@@ -231,9 +231,9 @@
     }
 
     &__txt00 {
-        @include retina-image("../images/txt_info_01", 295px 64px);
+        @include retina-image("../images/txt_info_02", 295px 65px);
         width: 295px;
-        height: 64px;
+        height: 65px;
         text-indent: -9999px;
         overflow: hidden;
         margin-bottom: 20px;
@@ -306,7 +306,7 @@
         background-color: #fff;
 
         dt {
-            @include retina-image("../images/img_message_03", 80px 80px, "jpg");
+            @include retina-image("../images/img_message_04", 80px 80px, "jpg");
             background-position: 0 0;
             background-repeat: no-repeat;
             padding-left: 95px;
