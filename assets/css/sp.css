@@ -360,6 +360,7 @@ input, select {
     margin: 30px 0; }
   .Description__txt00 {
     background-image: url("../images/txt_info_02.png");
+    background-repeat: no-repeat;
     width: 295px;
     height: 65px;
     text-indent: -9999px;

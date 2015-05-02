@@ -232,6 +232,7 @@
 
     &__txt00 {
         @include retina-image("../images/txt_info_02", 295px 65px);
+        background-repeat: no-repeat;
         width: 295px;
         height: 65px;
         text-indent: -9999px;
