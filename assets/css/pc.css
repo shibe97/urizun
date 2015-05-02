@@ -15,7 +15,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 body {
   font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-  line-height: 1.7;
+  line-height: 2.0;
   color: #1f2a68; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -156,10 +156,13 @@ input, select {
       color: #1f2a68; }
   .Header__sns {
     position: absolute;
-    top: 5px;
+    top: 2px;
     left: 15px; }
+  .Header__menu {
+    display: none; }
   .Header__nav {
-    text-align: center; }
+    text-align: center;
+    display: block !important; }
     .Header__nav li {
       margin: 0 10px;
       display: inline-block;
@@ -168,11 +171,14 @@ input, select {
       .Header__nav li a {
         color: #fff; }
 
+.TopLink2 {
+  display: none; }
+
 .Sns__facebook {
   float: left; }
 .Sns__twitter {
   float: left;
-  padding-top: 7px;
+  padding-top: 12px;
   margin-left: 15px; }
 
 .Top {
@@ -302,10 +308,13 @@ input, select {
   background-color: #fff; }
   .Description__container {
     background: url("../images/bg_okinawa_02.jpg") no-repeat right top;
-    padding-right: 540px;
-    padding-bottom: 210px;
-    width: 400px;
+    background-size: 50%;
     margin: 0 auto; }
+  .Description__inner {
+    width: 440px;
+    margin: 0 auto;
+    padding-right: 500px;
+    padding-bottom: 100px; }
   .Description__title {
     font-size: 30px;
     font-weight: bold;
@@ -333,7 +342,7 @@ input, select {
   padding: 100px 0; }
   .Urizun__container {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 80px 80px 160px;
+    padding: 60px;
     width: 500px;
     margin: 0 auto;
     color: #fff; }
@@ -351,17 +360,10 @@ input, select {
 .Message {
   padding: 100px 0; }
   .Message__container {
-    background-image: url("../images/img_message_01.jpg");
-    background-repeat: no-repeat;
-    background-position: 60px 60px;
     background-color: #fff;
-    padding: 60px 60px 50px 380px;
-    width: 500px;
+    padding: 60px;
+    width: 820px;
     margin: 0 auto; }
-    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
-      .Message__container {
-        background-image: url("../images/img_message_01_2x.jpg");
-        background-size: 260px 360px; } }
   .Message__title {
     font-size: 30px;
     font-weight: bold;
@@ -374,6 +376,23 @@ input, select {
     text-align: right; }
   .Message__sns {
     display: none; }
+  .Message__author {
+    background-image: url("../images/img_message_03.jpg");
+    border: 1px solid #ccc;
+    padding: 40px 40px 40px 240px;
+    background-position: 40px 40px;
+    background-repeat: no-repeat;
+    margin-top: 30px; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      .Message__author {
+        background-image: url("../images/img_message_03_2x.jpg");
+        background-size: 160px 160px; } }
+    .Message__author dt {
+      color: #444;
+      font-weight: bold; }
+    .Message__author dd {
+      color: #444;
+      font-size: 12px; }
 
 .Footer__copyright {
   font-size: 10px;

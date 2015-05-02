@@ -32,4 +32,18 @@
         return false;
     });
 
+    $(".js-menu").on("click", function(){
+        if($(this).hasClass("open")){
+            $(this).removeClass("open");
+        } else {
+            $(this).addClass("open");
+        }
+        $(".js-nav").toggle();
+    });
+
+    $(".js-nav li a").on("click", function(){
+        $(".js-menu").removeClass("open");
+        $(this).closest(".js-nav").hide();
+    });
+
 })();

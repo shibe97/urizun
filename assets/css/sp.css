@@ -15,7 +15,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 body {
   font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-  line-height: 1.7;
+  line-height: 2.0;
   color: #1f2a68; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -146,19 +146,74 @@ input, select {
       background-size: 360px 543px; } }
 
 .Header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
+  .Header__sns {
+    background-color: #fff;
+    padding: 0 10px 10px; }
+  .Header__menu {
+    top: 13px;
+    right: 14px;
+    width: 26px;
+    height: 18px;
+    background-image: url("../images/icn_menu_01.png");
+    position: absolute;
+    background-position: left top;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    overflow: hidden; }
+    @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+      .Header__menu {
+        background-image: url("../images/icn_menu_01_2x.png");
+        background-size: 26px 18px; } }
+    .Header__menu.open {
+      top: 12px;
+      right: 14px;
+      width: 20px;
+      height: 20px;
+      background-image: url("../images/icn_cross_01.png"); }
+      @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+        .Header__menu.open {
+          background-image: url("../images/icn_cross_01_2x.png");
+          background-size: 20px 20px; } }
+  .Header__nav {
+    background-color: rgba(31, 42, 104, 0.9);
+    display: none; }
+    .Header__nav li {
+      font-size: 14px;
+      font-weight: bold;
+      border-bottom: 1px solid #fff;
+      background-image: url("../images/icn_arrow_03.png");
+      background-position: right center;
+      background-repeat: no-repeat; }
+      @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+        .Header__nav li {
+          background-image: url("../images/icn_arrow_03_2x.png");
+          background-size: 22px 12px; } }
+      .Header__nav li a {
+        padding: 10px 15px;
+        display: block;
+        color: #fff; }
+        .Header__nav li a:hover {
+          text-decoration: none; }
+
+.TopLink2 {
   display: none; }
 
 .Sns__facebook {
   float: left; }
 .Sns__twitter {
   float: left;
-  padding-top: 7px;
+  padding-top: 12px;
   margin-left: 15px; }
 
 .Top {
   background-image: url("../images/img_top_03.png");
   background-repeat: no-repeat;
-  background-position: right top; }
+  background-position: right top;
+  padding-top: 40px; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     .Top {
       background-image: url("../images/img_top_03_2x.png");
@@ -220,7 +275,8 @@ input, select {
         background-size: 24px 12px; } }
 
 .MainImg {
-  display: none; }
+  display: none;
+  margin-top: 40px; }
 
 .Production {
   background-color: #fff;

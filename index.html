@@ -30,9 +30,11 @@
                     <div class="Sns__facebook fb-like" data-href="http://okinawa-urizun.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
                     <a href="https://twitter.com/share" class="Sns__twitter twitter-share-button" data-lang="ja" data-hashtags="うりずんの雨">ツイート</a>
                 </div>
-                <nav class="Header__nav">
+                <a class="Header__menu js-menu" href="javascript:void(0);">メニュー</a>
+                <nav class="Header__nav js-nav">
                     <ul>
-                        <li><a href="#Top">トップ</a></li>
+                        <li class="TopLink1"><a href="#Top">トップ</a></li>
+                        <li class="TopLink2"><a href="#Top2">トップ</a></li>
                         <li><a href="#Description">作品情報</a></li>
                         <li><a href="#Message">監督のことば</a></li>
                         <li><a href="#Urizun">製作にあたり</a></li>
@@ -54,7 +56,7 @@
                     <p class="Top__scroll">scroll</p>
                 </div>
             </section>
-            <img class="MainImg" src="assets/images/bg_okinawa_05_2x.jpg" alt="">
+            <img id="Top2" class="MainImg" src="assets/images/bg_okinawa_05_2x.jpg" alt="">
             <section class="Production">
                 <h1 class="Production__title">シグロ30周年記念　長編ドキュメンタリー</h1>
                 <ul class="Production__info">
@@ -80,10 +82,12 @@
             </section>
             <section id="Description" class="Description">
                 <div class="Description__container">
-                    <h1 class="Description__title">作品情報</h1>
-                    <p class="Description__txt00">私たちは沖縄のことを、どれくらい知っているのだろう？</p>
-                    <p class="Description__txt01">「老人と海」で与那国島の荒々しくも美しい自然と風土を捉え、「映画日本国憲法」で平和憲法の意義を訴えた、アメリカ人映画監督・ジャン・ユンカーマンが日米両国の間で、真の平和を求め、不屈の戦いを続けている沖縄の人々の尊厳を描いた渾身のドキュメンタリー。 </p>
-                    <p class="mt5px Description__txt02">１９４５年４月１日、アメリカ軍が沖縄本島に上陸。６月２３日（現在の慰霊の日）まで１２週間に及んだ沖縄地上戦では４人に一人の住民が亡くなりました。本作は、当時同じ戦場で向き合った元米兵、元日本兵、そして沖縄住民に取材を重ね、米国立公文書館所蔵の米軍による記録映像を交えて、沖縄戦の実情に迫ります。また、戦後のアメリカ占領期から今日に至るまで、米軍基地をめぐる負担を日米双方から押し付けられてきた、沖縄の差別と抑圧の歴史を描き、現在の辺野古への基地移設問題に繋がる、沖縄の人たちの深い失望と怒りの根を浮かび上がらせます。</p>   
+                    <div class="Description__inner">
+                        <h1 class="Description__title">作品情報</h1>
+                        <p class="Description__txt00">私たちは沖縄のことを、どれくらい知っているのだろう？</p>
+                        <p class="Description__txt01">「老人と海」で与那国島の荒々しくも美しい自然と風土を捉え、「映画日本国憲法」で平和憲法の意義を訴えた、アメリカ人映画監督・ジャン・ユンカーマンが日米両国の間で、真の平和を求め、不屈の戦いを続けている沖縄の人々の尊厳を描いた渾身のドキュメンタリー。 </p>
+                        <p class="mt5px Description__txt02">１９４５年４月１日、アメリカ軍が沖縄本島に上陸。６月２３日（現在の慰霊の日）まで１２週間に及んだ沖縄地上戦では４人に一人の住民が亡くなりました。本作は、当時同じ戦場で向き合った元米兵、元日本兵、そして沖縄住民に取材を重ね、米国立公文書館所蔵の米軍による記録映像を交えて、沖縄戦の実情に迫ります。また、戦後のアメリカ占領期から今日に至るまで、米軍基地をめぐる負担を日米双方から押し付けられてきた、沖縄の差別と抑圧の歴史を描き、現在の辺野古への基地移設問題に繋がる、沖縄の人たちの深い失望と怒りの根を浮かび上がらせます。</p>   
+                    </div>    
                 </div>    
             </section>
             <section id="Urizun" class="Urizun">
@@ -103,6 +107,11 @@
                         <div class="Sns__facebook fb-like" data-href="http://okinawa-urizun.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
                         <a href="https://twitter.com/share" class="Sns__twitter twitter-share-button" data-lang="ja" data-hashtags="うりずんの雨">ツイート</a>
                     </div>
+                    <dl class="Message__author">
+                        <dt>ジャン・ユンカーマン　映画監督</dt>
+                        <dd>1952年、米国ミルウォーキー生まれ。1969年、慶應義塾志木高等学校に留学。スタンフォード大学東洋文学語課卒業。<br>1982年から日産自動車における「日本的」労使関係を取材し、そのドキュメンタリーを米のテレビ局で放送したことがきっかけで、映画の世界の道を拓く。<br>画家の丸木位里・俊夫妻を取材した『劫火-ヒロシマからの旅-』（1986年）は米国アカデミー賞記録映画部門ノミネート。9.11のテロ後に言語学者ノーム・チョムスキーにインタビューした『チョムスキー9.11』（2002年）は世界十数カ国語に翻訳され、各国で劇場公開された。世界の知識人12人へのインタビューをもとに日本国憲法を検証する『映画 日本国憲法』（2005年）は戦後60年の節目に日本国憲法の意義を改めて問いかけた。<br>他に、日本の最西端の与那国島を舞台に、老漁師と巨大カジキの格闘を描いた『老人と海』（1990年）、エミー賞受賞作「夢窓～庭との語らい」（1992年）など。<br>現在も日米両国を拠点に活動を続けている。
+                        </dd>
+                    </dl>
                 </div>    
             </section>
             <footer class="Footer">
