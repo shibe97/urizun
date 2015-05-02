@@ -134,6 +134,16 @@
     margin-top: 40px;
 }
 
+.Bnr {
+    text-align: center;
+    padding: 40px 0 0;
+    background-color: #fff;
+
+    &__kenpo {
+        width: 320px;
+    }
+}
+
 .Production {
     background-color: #fff;
     padding: 30px 0;
@@ -220,6 +230,15 @@
         margin: 30px 0;
     }
 
+    &__txt00 {
+        @include retina-image("../images/txt_info_01", 295px 64px);
+        width: 295px;
+        height: 64px;
+        text-indent: -9999px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
     &__txt01 {
         font-weight: bold;
         text-align: justify;
@@ -241,30 +260,33 @@
     &__title {
         font-size: 20px;
         font-weight: bold;
-        margin: 30px 0;
+        margin: 30px 0 15px;
     }
 
     &__haiku {
         font-weight: bold;
+
+        span {
+            white-space: nowrap;
+        }
     }
 
     &__desc {
+        margin-top: 15px;
         font-size: 14px;
         text-align: justify;
     }
 }
 
 .Message {
-    @include retina-image("../images/img_message_02", 320px 250px, "jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-color: #fff;
-    padding: 250px 15px 30px;
+    background-color: #1e2a69;
+    padding: 30px 15px;
+    color: #fff;
 
     &__title {
         font-size: 20px;
         font-weight: bold;
-        margin: 30px 0 20px;
+        margin: 0 0 20px;
     }
     &__txt {
         font-size: 14px;
@@ -276,6 +298,30 @@
     }
     &__sns {
         margin-top: 40px;
+    }
+    &__author {
+        margin-top: 30px;
+        color: #444;
+        padding: 20px;
+        background-color: #fff;
+
+        dt {
+            @include retina-image("../images/img_message_03", 80px 80px, "jpg");
+            background-position: 0 0;
+            background-repeat: no-repeat;
+            padding-left: 95px;
+            padding-top: 10px;
+            height: 80px;
+            font-size: 14px;
+            font-weight: bold;
+
+            span {
+                white-space: nowrap;
+            }
+        }
+        dd {
+            font-size: 12px;
+        }
     }
 }
 
