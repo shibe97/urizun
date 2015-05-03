@@ -364,6 +364,23 @@ input, select {
   .Urizun__desc {
     text-align: justify; }
 
+.Story {
+  background-color: #fff;
+  padding: 100px 0; }
+  .Story__container {
+    width: 940px;
+    margin: 0 auto; }
+  .Story__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center; }
+  .Story__subTitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 100px; }
+
 .Message {
   padding: 100px 0; }
   .Message__container {
