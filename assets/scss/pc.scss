@@ -281,6 +281,42 @@
     }
 }
 
+.Story {
+    background-color: #fff;
+    padding: 100px 0;
+
+    &__container {
+        width: 940px;
+        margin: 0 auto;
+    }
+
+    &__title {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    &__subTitle {
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 100px;
+    }
+
+    &__first {
+    }
+
+    &__second {
+    }
+
+    &__third {
+    }
+
+    &__fourth {
+    }
+}
+
 .Message {
     padding: 100px 0;
 
