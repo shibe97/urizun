@@ -542,6 +542,9 @@ input, select {
       .Theater__table td a {
         font-weight: bold; }
 
+.TheaterSp {
+  display: none; }
+
 .Footer__copyright {
   font-size: 10px;
   color: #fff;

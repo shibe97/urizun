@@ -544,26 +544,26 @@ input, select {
   display: none; }
 
 .TheaterSp {
-  background: url("../images/bg_okinawa_01.jpg") no-repeat center -650px; }
+  background: url("../images/bg_okinawa_01.jpg") no-repeat center -770px; }
   .TheaterSp__title {
     font-size: 30px;
     font-weight: bold;
-    padding-top: 100px;
-    padding-bottom: 70px;
+    padding-top: 130px;
+    padding-bottom: 100px;
     color: #fff;
     text-align: center; }
   .TheaterSp__subTitle {
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
-    font-size: 14px; }
+    font-size: 12px; }
   .TheaterSp__whiteArea {
     background-color: #fff;
-    padding: 20px 0; }
+    padding: 20px 10px; }
   .TheaterSp__table {
-    width: 100%;
-    margin: 0 auto 30px;
-    border: 1px solid #1e2a69; }
+    margin: 0 0 30px;
+    border: 1px solid #1e2a69;
+    width: 100%; }
     .TheaterSp__table th {
       background-color: #ccc;
       font-size: 14px;
@@ -576,12 +576,23 @@ input, select {
     .TheaterSp__table td {
       font-size: 14px;
       color: #1e2a69;
-      height: 60px;
+      height: 40px;
       vertical-align: middle;
       border: 1px solid #1e2a69;
-      padding: 0 20px; }
+      padding: 10px 20px; }
       .TheaterSp__table td a {
         font-weight: bold; }
+  .TheaterSp__button {
+    background-color: #1f2a68;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    margin: 10px 0; }
+    .TheaterSp__button:hover {
+      text-decoration: none; }
 
 .Footer__copyright {
   font-size: 10px;
