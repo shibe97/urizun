@@ -300,9 +300,10 @@
     }
 
     &__first {
-        @include retina-image("../images/img_story_01", 100%, "jpg");
+        background-image: url("../images/img_story_01.jpg");
         background-repeat: no-repeat;
         background-position: center top;
+        background-size: 100% auto;
         padding-top: 90%;
         margin-bottom: 40px;
 
@@ -317,9 +318,10 @@
     }
 
     &__second {
-        @include retina-image("../images/img_story_02", 100%, "jpg");
+        background-image: url("../images/img_story_02.jpg");
         background-repeat: no-repeat;
         background-position: center top;
+        background-size: 100% auto;
         padding-top: 90%;
         margin-bottom: 40px;
 
@@ -334,9 +336,10 @@
     }
 
     &__third {
-        @include retina-image("../images/img_story_03", 100%, "jpg");
+        background-image: url("../images/img_story_03.jpg");
         background-repeat: no-repeat;
         background-position: center top;
+        background-size: 100% auto;
         padding-top: 90%;
         margin-bottom: 40px;
 
@@ -351,9 +354,10 @@
     }
 
     &__fourth {
-        @include retina-image("../images/img_story_04", 100%, "jpg");
+        background-image: url("../images/img_story_04.jpg");
         background-repeat: no-repeat;
         background-position: center top;
+        background-size: 100% auto;
         padding-top: 90%;
         margin-bottom: 40px;
 
