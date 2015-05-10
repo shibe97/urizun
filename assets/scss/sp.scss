@@ -368,6 +368,11 @@
     }
 
     &__description {
+        background-image: url("../images/img_story_06.png");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 100% auto;
+        padding-top: 85%;
         font-size: 14px;
     }
 
@@ -375,6 +380,7 @@
         margin-top: 40px;
         border: 1px solid #ccc;
         padding: 20px;
+        color: #444;
         
         dt {
             @include retina-image("../images/img_story_05", 80px 80px, "jpg");
@@ -388,6 +394,11 @@
 
             span {
                 white-space: nowrap;
+            }
+
+            small {
+                font-size: 8px;
+                color: #999;
             }
         }
         dd {

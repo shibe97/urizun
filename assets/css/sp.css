@@ -478,11 +478,17 @@ input, select {
     .Story__fourth dd {
       font-size: 12px; }
   .Story__description {
+    background-image: url("../images/img_story_06.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    padding-top: 85%;
     font-size: 14px; }
   .Story__author {
     margin-top: 40px;
     border: 1px solid #ccc;
-    padding: 20px; }
+    padding: 20px;
+    color: #444; }
     .Story__author dt {
       background-image: url("../images/img_story_05.jpg");
       background-position: 0 0;
@@ -498,6 +504,9 @@ input, select {
           background-size: 80px 80px; } }
       .Story__author dt span {
         white-space: nowrap; }
+      .Story__author dt small {
+        font-size: 8px;
+        color: #999; }
     .Story__author dd {
       font-size: 12px; }
 

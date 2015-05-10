@@ -329,6 +329,10 @@
         dt {
             color: #444;
             font-weight: bold;
+
+            span {
+                white-space: nowrap;
+            }
         }
         dd {
             color: #444;
