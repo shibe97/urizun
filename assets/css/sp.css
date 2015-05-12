@@ -400,6 +400,104 @@ input, select {
     font-size: 14px;
     text-align: justify; }
 
+.Story {
+  background-color: #fff;
+  padding: 1px 0 50px; }
+  .Story__container {
+    padding: 0 15px; }
+  .Story__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0 15px; }
+  .Story__subTitle {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 20px; }
+  .Story__first {
+    background-image: url("../images/img_story_01.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    padding-top: 90%;
+    margin-bottom: 40px; }
+    .Story__first dt {
+      font-weight: bold;
+      margin-bottom: 20px;
+      font-size: 14px; }
+    .Story__first dd {
+      font-size: 12px; }
+  .Story__second {
+    background-image: url("../images/img_story_02.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    padding-top: 90%;
+    margin-bottom: 40px; }
+    .Story__second dt {
+      font-weight: bold;
+      margin-bottom: 20px;
+      font-size: 14px; }
+    .Story__second dd {
+      font-size: 12px; }
+  .Story__third {
+    background-image: url("../images/img_story_03.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    padding-top: 90%;
+    margin-bottom: 40px; }
+    .Story__third dt {
+      font-weight: bold;
+      margin-bottom: 20px;
+      font-size: 14px; }
+    .Story__third dd {
+      font-size: 12px; }
+  .Story__fourth {
+    background-image: url("../images/img_story_04.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    padding-top: 90%;
+    margin-bottom: 40px; }
+    .Story__fourth dt {
+      font-weight: bold;
+      margin-bottom: 20px;
+      font-size: 14px; }
+    .Story__fourth dd {
+      font-size: 12px; }
+  .Story__description {
+    background-image: url("../images/img_story_06.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    padding-top: 85%;
+    font-size: 14px; }
+  .Story__author {
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    color: #444; }
+    .Story__author dt {
+      background-image: url("../images/img_story_07.jpg");
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      padding-left: 95px;
+      padding-top: 10px;
+      height: 80px;
+      font-size: 14px;
+      font-weight: bold; }
+      @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
+        .Story__author dt {
+          background-image: url("../images/img_story_07_2x.jpg");
+          background-size: 80px 80px; } }
+      .Story__author dt span {
+        white-space: nowrap; }
+      .Story__author dt small {
+        font-size: 8px;
+        color: #999; }
+    .Story__author dd {
+      font-size: 12px; }
+
 .Message {
   background-color: #1e2a69;
   padding: 30px 15px;
@@ -438,6 +536,60 @@ input, select {
         white-space: nowrap; }
     .Message__author dd {
       font-size: 12px; }
+
+.Theater {
+  display: none; }
+
+.TheaterSp {
+  background: url("../images/bg_okinawa_01.jpg") no-repeat center -770px; }
+  .TheaterSp__title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 130px;
+    padding-bottom: 100px;
+    color: #fff;
+    text-align: center; }
+  .TheaterSp__subTitle {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 12px; }
+  .TheaterSp__whiteArea {
+    background-color: #fff;
+    padding: 20px 10px; }
+  .TheaterSp__table {
+    margin: 0 0 30px;
+    border: 1px solid #1e2a69;
+    width: 100%; }
+    .TheaterSp__table th {
+      background-color: #ccc;
+      font-size: 14px;
+      height: 45px;
+      width: 100px;
+      text-align: left;
+      padding: 0 15px;
+      vertical-align: middle;
+      border: 1px solid #1e2a69; }
+    .TheaterSp__table td {
+      font-size: 14px;
+      color: #1e2a69;
+      height: 40px;
+      vertical-align: middle;
+      border: 1px solid #1e2a69;
+      padding: 10px 20px; }
+      .TheaterSp__table td a {
+        font-weight: bold; }
+  .TheaterSp__button {
+    background-color: #1f2a68;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    margin: 10px 0; }
+    .TheaterSp__button:hover {
+      text-decoration: none; }
 
 .Footer__copyright {
   font-size: 10px;

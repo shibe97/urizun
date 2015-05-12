@@ -279,6 +279,138 @@
     }
 }
 
+.Story {
+    background-color: #fff;
+    padding: 1px 0 50px;
+
+    &__container {
+        padding: 0 15px;
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 30px 0 15px;
+    }
+
+    &__subTitle {
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    &__first {
+        background-image: url("../images/img_story_01.jpg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 100% auto;
+        padding-top: 90%;
+        margin-bottom: 40px;
+
+        dt {
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        dd {
+            font-size: 12px;
+        }
+    }
+
+    &__second {
+        background-image: url("../images/img_story_02.jpg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 100% auto;
+        padding-top: 90%;
+        margin-bottom: 40px;
+
+        dt {
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        dd {
+            font-size: 12px;
+        }
+    }
+
+    &__third {
+        background-image: url("../images/img_story_03.jpg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 100% auto;
+        padding-top: 90%;
+        margin-bottom: 40px;
+
+        dt {
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        dd {
+            font-size: 12px;
+        }
+    }
+
+    &__fourth {
+        background-image: url("../images/img_story_04.jpg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 100% auto;
+        padding-top: 90%;
+        margin-bottom: 40px;
+
+        dt {
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        dd {
+            font-size: 12px;
+        }
+    }
+
+    &__description {
+        background-image: url("../images/img_story_06.png");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 100% auto;
+        padding-top: 85%;
+        font-size: 14px;
+    }
+
+    &__author {
+        margin-top: 40px;
+        border: 1px solid #ccc;
+        padding: 20px;
+        color: #444;
+        
+        dt {
+            @include retina-image("../images/img_story_07", 80px 80px, "jpg");
+            background-position: 0 0;
+            background-repeat: no-repeat;
+            padding-left: 95px;
+            padding-top: 10px;
+            height: 80px;
+            font-size: 14px;
+            font-weight: bold;
+
+            span {
+                white-space: nowrap;
+            }
+
+            small {
+                font-size: 8px;
+                color: #999;
+            }
+        }
+        dd {
+            font-size: 12px;
+        }
+    }
+}
+
 .Message {
     background-color: #1e2a69;
     padding: 30px 15px;
@@ -322,6 +454,75 @@
         }
         dd {
             font-size: 12px;
+        }
+    }
+}
+
+.Theater {
+    display: none;
+}
+
+.TheaterSp {
+    background: url("../images/bg_okinawa_01.jpg") no-repeat center -770px;
+
+    &__title {
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 130px;
+        padding-bottom: 100px;
+        color: #fff;
+        text-align: center;
+    }
+    &__subTitle {
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    &__whiteArea {
+        background-color: #fff;
+        padding: 20px 10px;
+    }
+    &__table {
+        margin: 0 0 30px;
+        border: 1px solid #1e2a69;
+        width: 100%;
+
+        th {
+            background-color: #ccc;
+            font-size: 14px;
+            height: 45px;
+            width: 100px;
+            text-align: left;
+            padding: 0 15px;
+            vertical-align: middle;
+            border: 1px solid #1e2a69;
+        }
+        td {
+            font-size: 14px;
+            color: #1e2a69;
+            height: 40px;
+            vertical-align: middle;
+            border: 1px solid #1e2a69;
+            padding: 10px 20px;
+
+            a {
+                font-weight: bold;
+            }
+        }
+    }
+    &__button {
+        background-color: #1f2a68;
+        color: #fff;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+
+        &:hover {
+            text-decoration: none;
         }
     }
 }

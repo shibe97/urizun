@@ -15,6 +15,25 @@
     top: -400px;
 }
 
+.Bg02 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    @include retina-image("../images/bg_ripple_01", 340px 490px);
+    background-color: #1f2a68;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 10000;
+    -moz-transition: opacity 2s linear;
+    -webkit-transition: opacity 2s linear;
+    -ms-transition: opacity 2s linear;
+    opacity: 1;
+
+    &.ripple {
+        opacity: 0;   
+    }
+}
+
 .Header {
     padding: 8px 0;
     position: fixed;
@@ -22,6 +41,7 @@
     z-index: 100;
     -moz-transition: background-color 0.2s linear;
     -webkit-transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear;
 
     &.scroll {
         background-color: #fff;
@@ -306,15 +326,89 @@
     }
 
     &__first {
+        @include retina-image("../images/img_story_01", 460px 380px, "jpg");
+        background-repeat: no-repeat;
+        background-position: right top;
+        padding-right: 520px;
+        height: 420px;
+
+        dt {
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        dd {
+            font-size: 14px;
+        }
     }
 
     &__second {
+        @include retina-image("../images/img_story_02", 460px 380px, "jpg");
+        background-repeat: no-repeat;
+        background-position: left top;
+        padding-left: 520px;
+        height: 420px;
+
+        dt {
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        dd {
+            font-size: 14px;
+        }
     }
 
     &__third {
+        @include retina-image("../images/img_story_03", 460px 380px, "jpg");
+        background-repeat: no-repeat;
+        background-position: right top;
+        padding-right: 520px;
+        height: 420px;
+
+        dt {
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        dd {
+            font-size: 14px;
+        }
     }
 
     &__fourth {
+        @include retina-image("../images/img_story_04", 460px 380px, "jpg");
+        background-repeat: no-repeat;
+        background-position: left top;
+        padding-left: 520px;
+        height: 420px;
+
+        dt {
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        dd {
+            font-size: 14px;
+        }
+    }
+
+    &__description {
+        font-size: 14px;
+    }
+
+    &__author {
+        @include retina-image("../images/img_story_05", 160px 160px, "jpg");
+        border: 1px solid #ccc;
+        padding: 40px 40px 40px 240px;
+        background-position: 40px 40px;
+        background-repeat: no-repeat;
+        margin-top: 30px;
+
+        dt {
+            color: #444;
+            font-weight: bold;
+        }
+        dd {
+            color: #444;
+            font-size: 12px;
+        }
     }
 }
 
@@ -361,6 +455,62 @@
             font-size: 12px;
         }
     }
+}
+
+.Theater {
+    background: url("../images/bg_okinawa_01.jpg") no-repeat center -650px;
+    
+    &__title {
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 170px;
+        color: #fff;
+        text-align: center;
+    }
+    &__subTitle {
+        color: #fff;
+        text-align: center;
+        padding-bottom: 160px;
+    }
+    &__whiteArea {
+        background-color: #fff;
+        padding: 60px 0;
+    }
+    &__table {
+        width: 940px;
+        margin: 0 auto;
+        border: 1px solid #1e2a69;
+
+        th {
+            background-color: #ccc;
+            font-size: 12px;
+            height: 40px;
+            vertical-align: middle;
+            border: 1px solid #1e2a69;
+        }
+        td {
+            font-size: 14px;
+            color: #1e2a69;
+            height: 60px;
+            vertical-align: middle;
+            border: 1px solid #1e2a69;
+            padding: 0 20px;
+
+            &.phone {
+                @include retina-image("../images/icn_phone_01", 16px 16px, "png");
+                background-position: 20px center;
+                background-repeat: no-repeat;
+                padding-left: 46px;
+            }
+            a {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.TheaterSp {
+    display: none;
 }
 
 .Footer {

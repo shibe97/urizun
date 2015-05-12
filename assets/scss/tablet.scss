@@ -231,8 +231,121 @@
     }
 }
 
+.Story {
+    background-color: #fff;
+
+    &__container {
+        padding: 60px;
+    }
+
+    &__title {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    &__subTitle {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    &__first {
+        background-image: url("../images/img_story_01.jpg");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 50% auto;
+        padding-right: 60%;
+        margin-bottom: 40px;
+
+        dt {
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        dd {
+            font-size: 14px;
+        }
+    }
+
+    &__second {
+        background-image: url("../images/img_story_02.jpg");
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: 50% auto;
+        padding-left: 60%;
+        margin-bottom: 40px;
+
+        dt {
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        dd {
+            font-size: 14px;
+        }
+    }
+
+    &__third {
+        background-image: url("../images/img_story_03.jpg");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 50% auto;
+        padding-right: 60%;
+        margin-bottom: 40px;
+
+        dt {
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        dd {
+            font-size: 14px;
+        }
+    }
+
+    &__fourth {
+        background-image: url("../images/img_story_04.jpg");
+        background-repeat: no-repeat;
+        background-position: left top;
+        background-size: 50% auto;
+        padding-left: 60%;
+        margin-bottom: 40px;
+
+        dt {
+            font-weight: bold;
+            margin-bottom: 50px;
+        }
+        dd {
+            font-size: 14px;
+        }
+    }
+
+    &__description {
+        font-size: 14px;
+    }
+
+    &__author {
+        @include retina-image("../images/img_story_05", 160px 160px, "jpg");
+        border: 1px solid #ccc;
+        padding: 40px 40px 40px 240px;
+        background-position: 40px 40px;
+        background-repeat: no-repeat;
+        margin-top: 30px;
+
+        dt {
+            color: #444;
+            font-weight: bold;
+
+            span {
+                white-space: nowrap;
+            }
+        }
+        dd {
+            color: #444;
+            font-size: 12px;
+        }
+    }
+}
+
 .Message {
-    padding: 100px 0;
 
     &__container {
         background-color: #fff;
@@ -271,6 +384,74 @@
         dd {
             color: #444;
             font-size: 12px;
+        }
+    }
+}
+
+.Theater {
+    display: none;
+}
+
+.TheaterSp {
+    background: url("../images/bg_okinawa_01.jpg") no-repeat center -770px;
+
+    &__title {
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 130px;
+        padding-bottom: 100px;
+        color: #fff;
+        text-align: center;
+    }
+    &__subTitle {
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    &__whiteArea {
+        background-color: #fff;
+        padding: 20px;
+    }
+    &__table {
+        width: 100%;
+        margin: 0 auto 30px;
+        border: 1px solid #1e2a69;
+
+        th {
+            background-color: #ccc;
+            font-size: 14px;
+            height: 45px;
+            width: 100px;
+            text-align: left;
+            padding: 0 15px;
+            vertical-align: middle;
+            border: 1px solid #1e2a69;
+        }
+        td {
+            font-size: 14px;
+            color: #1e2a69;
+            height: 40px;
+            vertical-align: middle;
+            border: 1px solid #1e2a69;
+            padding: 10px 20px;
+
+            a {
+                font-weight: bold;
+            }
+        }
+    }
+    &__button {
+        background-color: #1f2a68;
+        color: #fff;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+
+        &:hover {
+            text-decoration: none;
         }
     }
 }

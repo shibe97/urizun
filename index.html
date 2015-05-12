@@ -24,6 +24,7 @@
         <script>(function(d, s, id){var js, fjs = d.getElementsByTagName(s)[0];if(d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=1506406802915855&version=v2.0";fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
         <div class="Bg01 js-bg"></div>
+        <div class="Bg02 js-ripple"></div>
         <div class="Wrapper">
             <header class="Header">
                 <div class="Header__sns Sns cf">
@@ -35,10 +36,12 @@
                     <ul>
                         <li class="TopLink1"><a href="#Top">トップ</a></li>
                         <li class="TopLink2"><a href="#Top2">トップ</a></li>
-                        <li><a href="#Description">作品情報</a></li>
-                        <li><a href="#Message">監督のことば</a></li>
-                        <li><a href="http://www.cine.co.jp/detail/0131.html" target="_blank">特別鑑賞券販売</a></li>
                         <li><a href="https://www.facebook.com/okinawa.urizun" target="_blank">最新情報</a></li>
+                        <li><a href="#Description">作品情報</a></li>
+                        <li><a href="#Story">製作にあたり</a></li>
+                        <li><a href="#Message">監督の言葉</a></li>
+                        <li><a href="theater.html">劇場情報</a></li>
+                        <li><a href="http://www.cine.co.jp/detail/0131.html" target="_blank">特別鑑賞券販売</a></li>
                     </ul>
                 </nav>    
             </header>    
@@ -68,14 +71,6 @@
                     <li class="Production__facebook"><a href="https://www.facebook.com/okinawa.urizun" target="facebook">facebook</a></li>
                     <li class="Production__twitter"><a href="https://twitter.com/OkinawaUrizun" target="twitter">twitter</a></li>
                 </ul>
-                <dl class="Production__hall">
-                    <dt class="Production__hallTitle">公開情報</dt>
-                    <dd class="Production__hallName"><a href="http://www.iwanami-hall.com/" target="iwanami-hall">岩波ホール</a></dd>
-                    <dd class="Production__hallName"><a href="http://www.sakura-zaka.com/" target="sakura-zaka">桜坂劇場</a></dd>
-                </dl>
-                <div class="Production__maeuri mt20px">
-                    <a href="http://www.cine.co.jp/detail/0131.html" target="_blank">特別鑑賞券販売</a>
-                </div>
             </section>
             <section id="Description" class="Description">
                 <div class="Description__container">
@@ -100,26 +95,26 @@
                     <h1 class="Story__title">製作にあたり</h1>
                     <p class="Story__subTitle">シグロ代表／プロデューサー　山上徹二郎</p>
                     <ul>
-                        <li>
+                        <li class="Story__first">
                             <dl>
                                 <dt>第1部「沖縄戦」</dt>
                                 <dd>第1部「沖縄戦」では、凄惨を極めた沖縄の地上戦で対峙し生き残った元米兵と元日本兵、そして沖縄で現地徴用され戦闘に駆り出された沖縄の人びとの証言と、新たに発掘した米軍撮影の資料映像を重層的に構成し、70年前の沖縄戦の実像に迫ろうとした。</dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="Story__second">
                             <dl>
                                 <dt>第2部「占領」</dt>
                                 <dd>第2部「占領」では、1945年6月23日沖縄戦の組織的戦闘の終結を待たず、4月1日の沖縄本島上陸直後から始まっていた米軍による差別的な沖縄占領政策の実態と米軍基地建設、そして占領下での沖縄の人々の平和を求める反基地闘争を中心に描く。</dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="Story__third">
                             <dl>
                                 <dt>第3部「凌辱」</dt>
                                 <dd>第3部「凌辱」では、読谷村でのチビチリガマ集団自決「集団強制死」の証言、また米軍基地の存在によってもたらされる沖縄の人びと、とりわけ女性たちへの性暴力の実態を、被害の側の人びと、そして性暴力の加害者である元米兵の、双方への取材を通して明らかにしていく。<br> 基地周辺での住民への被害だけでなく、米軍内でも女性兵士たちが同僚の男性兵士から性的被害を受けているという実態が、アメリカ取材から見えてくる。
                                 </dd>
                             </dl>
                         </li>
-                        <li>
+                        <li class="Story__fourth">
                             <dl>
                                 <dt>第4部「明日へ」</dt>
                                 <dd>第4部「明日へ」の最終章では、辺野古への新たな米軍基地建設をめぐる、日本政府の強引な対応と、沖縄への差別的な扱いを許している私たちの無関心に対して、沖縄の人たちの深い失望と怒りが語られる。<br>そして、不屈の闘いを続ける沖縄の人びとの真の強さに励まされるかのように、映画は終わる。
@@ -127,6 +122,11 @@
                             </dl>
                         </li>
                     </ul>
+                    <p class="Story__description">この作品は、シグロの30周年記念映画として製作された。<br>1986年設立のシグロは、沖縄をテーマにしたドキュメンタリー映画の製作からスタートし、これまでの30年間に4本の映画を沖縄で製作してきた。<br>沖縄戦から70年目を迎える年にあたり、私たちはどのように沖縄の問題と向き合えばいいのか。沖縄戦の真実に迫り、戦後の沖縄の歴史を見つめ直すことによって、沖縄の「終わらない戦後」をいま一度、私たち自身に問うドキュメンタリー映画を作りたいと思った。</p>
+                    <dl class="Story__author">
+                        <dt><span>山上徹二郎<small>（やまがみ・てつじろう）　</small></span><span>映画プロデューサー</span></dt>
+                        <dd>1954年、熊本県生まれ。1981年、青林舎に入社、映画製作に携わる。1986年、シグロを設立、代表となる。<br>シグロの第一回作品は『ゆんたんざ沖縄』（西山正啓監督）。以降、『エドワード・サイード OUT OF PLACE』（佐藤真監督）、『亡命』（翰 光監督）、『毎日がアルツハイマー』シリーズ（関口祐加監督）など70作品以上のドキュメンタリー映画を製作し、世界中で数々の映画賞を受賞。<br>また『絵の中のぼくの村』（東陽一監督）、『ぐるりのこと。』（橋口亮輔監督）、『ミンヨン 倍音の法則』（佐々木昭一郎監督）などの劇映画を20作品以上製作。<br>アジアを中心とした海外映画の、日本での配給も手がける。</dd>
+                    </dl>
                 </div>
             </section>
             <section id="Message" class="Message">
@@ -147,5 +147,7 @@
         </div>
         <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
         <script type="text/javascript" src="assets/js/effect.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.ripples.js"></script>
+        <script type="text/javascript" src="assets/js/ripple.js"></script>
     </body>
 </html>
