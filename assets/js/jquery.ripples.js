@@ -525,7 +525,9 @@
 		
 		// Actions
 		destroy: function() {
-			this.canvas.remove();
+            if(this.canvas.remove){
+    			this.canvas.remove();
+            }
 			this.$el.off('.ripples');
 			this.$el.css('backgroundImage', '');
 			this.$el.removeClass('jquery-ripples').removeData('ripples');
