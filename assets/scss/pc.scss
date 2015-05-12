@@ -26,6 +26,7 @@
     z-index: 10000;
     -moz-transition: opacity 2s linear;
     -webkit-transition: opacity 2s linear;
+    -ms-transition: opacity 2s linear;
     opacity: 1;
 
     &.ripple {
@@ -40,6 +41,7 @@
     z-index: 100;
     -moz-transition: background-color 0.2s linear;
     -webkit-transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear;
 
     &.scroll {
         background-color: #fff;
