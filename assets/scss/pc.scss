@@ -297,6 +297,10 @@
         padding: 40px 0 20px;
     }
 
+    &__haikuSp {
+        display: none;
+    }
+
     &__desc {
         text-align: justify;
     }
@@ -409,6 +413,10 @@
             color: #444;
             font-size: 12px;
         }
+    }
+
+    &__authorNameSp {
+        display: none;
     }
 }
 

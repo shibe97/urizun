@@ -383,6 +383,8 @@ input, select {
     font-weight: bold;
     text-align: center;
     padding: 40px 0 20px; }
+  .Urizun__haikuSp {
+    display: none; }
   .Urizun__desc {
     text-align: justify; }
 
@@ -481,6 +483,8 @@ input, select {
     .Story__author dd {
       color: #444;
       font-size: 12px; }
+  .Story__authorNameSp {
+    display: none; }
 
 .Message {
   padding: 100px 0; }

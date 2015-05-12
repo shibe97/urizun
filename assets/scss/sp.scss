@@ -10,6 +10,17 @@
     background-color: #1f2a68;
 }
 
+.Bg02 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    @include retina-image("../images/bg_ripple_01", 340px 490px);
+    background-color: #1f2a68;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0;
+}
+
 .Header {
     position: fixed;
     width: 100%;
@@ -265,6 +276,10 @@
     }
 
     &__haiku {
+        display: none;
+    }
+
+    &__haikuSp {
         font-weight: bold;
 
         span {
@@ -408,6 +423,10 @@
         dd {
             font-size: 12px;
         }
+    }
+
+    &__authorNamePc {
+        display: none;
     }
 }
 
