@@ -568,7 +568,10 @@
 	var old = $.fn.ripples;
 
 	$.fn.ripples = function(option) {
-		if (!supportsWebGL) throw new Error('Your browser does not support at least one of the following: WebGL, OES_texture_float extension, OES_texture_float_linear extension.');
+		//if (!supportsWebGL) throw new Error('Your browser does not support at least one of the following: WebGL, OES_texture_float extension, OES_texture_float_linear extension.');
+        if (!supportsWebGL){
+            return false;
+        }
 
 		var args = (arguments.length > 1) ? Array.prototype.slice.call(arguments, 1) : undefined;
 
