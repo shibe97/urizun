@@ -168,13 +168,17 @@
             setTimeout(function(){
                 $('.js-ripple').addClass('ripple');
                 setTimeout(function(){
-                    $('.js-ripple').ripples('destroy');
+                    if(!userAgent.match(/(msie|MSIE)/)) {
+                        $('.js-ripple').ripples('destroy');
+                    }
                 }, 2000);
             }, 5000);
             $('.js-ripple').on('click', function(){
                 $(this).addClass('ripple');
                 setTimeout(function(){
-                    $('.js-ripple').ripples('destroy');
+                    if(!userAgent.match(/(msie|MSIE)/)) {
+                        $('.js-ripple').ripples('destroy');
+                    }        
                 }, 2000);
             });
         </script>
