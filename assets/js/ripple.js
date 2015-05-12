@@ -1,5 +1,4 @@
 $(function(){
-    $('.js-ripple').show();
     $('.js-ripple').ripples({
         resolution: 512,
         dropRadius: 20,
