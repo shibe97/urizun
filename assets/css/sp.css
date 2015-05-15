@@ -276,7 +276,6 @@ input, select {
         background-size: 239px 83px; } }
   .Top__scroll {
     text-align: center;
-    color: #fff;
     background-image: url("../images/icn_scroll_02.png");
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -287,6 +286,8 @@ input, select {
       .Top__scroll {
         background-image: url("../images/icn_scroll_02_2x.png");
         background-size: 24px 12px; } }
+    .Top__scroll a {
+      color: #fff; }
 
 .MainImg {
   display: none;

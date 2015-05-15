@@ -140,10 +140,13 @@
     }
     &__scroll {
         text-align: center;
-        color: #fff;
         background: url("../images/icn_scroll_01.png") no-repeat center bottom;
         padding-bottom: 16px;
         margin-top: 37px;
+
+        a {
+            color: #fff;
+        }
     }
 }
 
@@ -163,7 +166,7 @@
 
 .Production {
     background-color: #fff;
-    padding: 40px;
+    padding: 40px 40px 0;
     text-align: center;
 
     &__info {
@@ -234,6 +237,7 @@
 
 .Description {
     background-color: #fff;
+    padding-top: 40px;
 
     &__container {
         background: url("../images/bg_okinawa_02.jpg") no-repeat right top;

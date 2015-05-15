@@ -130,13 +130,16 @@
     }
     &__scroll {
         text-align: center;
-        color: #fff;
         @include retina-image("../images/icn_scroll_02", 24px 12px);
         background-repeat: no-repeat;
         background-position: center bottom;
         padding-bottom: 12px;
         font-size: 12px;
         margin-top: 12px;
+
+        a {
+            color: #fff;
+        }
     }
 }
 

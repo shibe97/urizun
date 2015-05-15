@@ -263,10 +263,11 @@ input, select {
     right: 260px; }
   .Top__scroll {
     text-align: center;
-    color: #fff;
     background: url("../images/icn_scroll_01.png") no-repeat center bottom;
     padding-bottom: 16px;
     margin-top: 37px; }
+    .Top__scroll a {
+      color: #fff; }
 
 .MainImg {
   display: none; }
@@ -280,7 +281,7 @@ input, select {
 
 .Production {
   background-color: #fff;
-  padding: 40px;
+  padding: 40px 40px 0;
   text-align: center; }
   .Production__info {
     font-size: 12px; }
@@ -334,7 +335,8 @@ input, select {
     display: none; }
 
 .Description {
-  background-color: #fff; }
+  background-color: #fff;
+  padding-top: 40px; }
   .Description__container {
     background: url("../images/bg_okinawa_02.jpg") no-repeat right top;
     background-size: 50%;
