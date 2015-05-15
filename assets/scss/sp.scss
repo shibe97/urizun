@@ -546,6 +546,29 @@
     }
 }
 
+.Movie {
+    background: url("../images/bg_okinawa_01.jpg") no-repeat center -770px;
+    
+    &__title {
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 130px;
+        padding-bottom: 100px;
+        color: #fff;
+        text-align: center;
+    }
+    &__whiteArea {
+        background-color: #fff;
+        padding: 20px 0;
+    }
+    &__iframe {
+        margin: 0 auto;
+        display: block;
+        width: 92vw;
+        height: 69vw;
+    }
+}
+
 .Footer {
     &__copyright {
         font-size: 10px;
