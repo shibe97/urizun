@@ -130,13 +130,16 @@
     }
     &__scroll {
         text-align: center;
-        color: #fff;
         @include retina-image("../images/icn_scroll_02", 24px 12px);
         background-repeat: no-repeat;
         background-position: center bottom;
         padding-bottom: 12px;
         font-size: 12px;
         margin-top: 12px;
+
+        a {
+            color: #fff;
+        }
     }
 }
 
@@ -464,7 +467,7 @@
             padding-left: 95px;
             padding-top: 10px;
             height: 80px;
-            font-size: 14px;
+            font-size: 15px;
             font-weight: bold;
 
             span {
@@ -527,6 +530,7 @@
 
             a {
                 font-weight: bold;
+                text-decoration: underline;
             }
         }
     }
@@ -539,10 +543,34 @@
         display: block;
         text-align: center;
         margin: 10px 0;
+        text-decoration: none !important;
 
         &:hover {
             text-decoration: none;
         }
+    }
+}
+
+.Movie {
+    background: url("../images/bg_okinawa_01.jpg") no-repeat center -770px;
+    
+    &__title {
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 130px;
+        padding-bottom: 100px;
+        color: #fff;
+        text-align: center;
+    }
+    &__whiteArea {
+        background-color: #fff;
+        padding: 20px 0;
+    }
+    &__iframe {
+        margin: 0 auto;
+        display: block;
+        width: 92vw;
+        height: 69vw;
     }
 }
 

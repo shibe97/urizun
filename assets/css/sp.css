@@ -276,7 +276,6 @@ input, select {
         background-size: 239px 83px; } }
   .Top__scroll {
     text-align: center;
-    color: #fff;
     background-image: url("../images/icn_scroll_02.png");
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -287,6 +286,8 @@ input, select {
       .Top__scroll {
         background-image: url("../images/icn_scroll_02_2x.png");
         background-size: 24px 12px; } }
+    .Top__scroll a {
+      color: #fff; }
 
 .MainImg {
   display: none;
@@ -544,7 +545,7 @@ input, select {
       padding-left: 95px;
       padding-top: 10px;
       height: 80px;
-      font-size: 14px;
+      font-size: 15px;
       font-weight: bold; }
       @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
         .Message__author dt {
@@ -596,7 +597,8 @@ input, select {
       border: 1px solid #1e2a69;
       padding: 10px 20px; }
       .TheaterSp__table td a {
-        font-weight: bold; }
+        font-weight: bold;
+        text-decoration: underline; }
   .TheaterSp__button {
     background-color: #1f2a68;
     color: #fff;
@@ -605,9 +607,28 @@ input, select {
     font-size: 12px;
     display: block;
     text-align: center;
-    margin: 10px 0; }
+    margin: 10px 0;
+    text-decoration: none !important; }
     .TheaterSp__button:hover {
       text-decoration: none; }
+
+.Movie {
+  background: url("../images/bg_okinawa_01.jpg") no-repeat center -770px; }
+  .Movie__title {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 130px;
+    padding-bottom: 100px;
+    color: #fff;
+    text-align: center; }
+  .Movie__whiteArea {
+    background-color: #fff;
+    padding: 20px 0; }
+  .Movie__iframe {
+    margin: 0 auto;
+    display: block;
+    width: 92vw;
+    height: 69vw; }
 
 .Footer__copyright {
   font-size: 10px;
