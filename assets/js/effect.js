@@ -22,16 +22,16 @@
             $bg01.css({ top : 0});
         }
     });
-
-    $('a[href^=#]').click(function() {
-        var speed = 1000;
-        var href= $(this).attr("href");
-        var target = $(href == "#" || href == "" ? 'html' : href);
-        var position = target.offset().top;
-        $('body,html').animate({scrollTop:position}, speed, 'swing');
-        return false;
+    
+    $(".js-top").on("click", function(){
+        var position = $("#Top").offset().top;
+        $('body,html').animate({scrollTop:position}, 1000, 'swing');
     });
-
+    $(".js-top2").on("click", function(){
+        var position = $("#Top2").offset().top;
+        $('body,html').animate({scrollTop:position}, 1000, 'swing');
+    });
+    
     $(".js-menu").on("click", function(){
         if($(this).hasClass("open")){
             $(this).removeClass("open");
