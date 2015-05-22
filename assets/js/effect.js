@@ -31,6 +31,18 @@
         var position = $("#Top2").offset().top;
         $('body,html').animate({scrollTop:position}, 1000, 'swing');
     });
+    $(".js-description").on("click", function(){
+        var position = $("#Description").offset().top;
+        $('body,html').animate({scrollTop:position}, 1000, 'swing');
+    });
+    $(".js-story").on("click", function(){
+        var position = $("#Story").offset().top;
+        $('body,html').animate({scrollTop:position}, 1000, 'swing');
+    });
+    $(".js-message").on("click", function(){
+        var position = $("#Message").offset().top;
+        $('body,html').animate({scrollTop:position}, 1000, 'swing');
+    });
     
     $(".js-menu").on("click", function(){
         if($(this).hasClass("open")){

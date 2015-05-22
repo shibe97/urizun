@@ -268,9 +268,10 @@
 .Urizun {
     @include retina-image("../images/bg_urizun_02", 320px 250px, "jpg");
     background-repeat: no-repeat;
-    background-position: center top;
-    background-color: #fff;
-    padding: 250px 15px 30px;
+    background-position: center 30px;
+    background-color: #1e2a69;
+    color: #fff;
+    padding: 270px 15px 30px;
 
     &__title {
         font-size: 20px;

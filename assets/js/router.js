@@ -12,6 +12,9 @@ var Router = Backbone.Router.extend({
         "" : "index",
         "!/" : "index",
         "!/top" : "index",
+        "!/description" : "description",
+        "!/story" : "story",
+        "!/message" : "message",
         "!/movie" : "movie",
         "!/theater" : "theater"
     },
@@ -21,6 +24,21 @@ var Router = Backbone.Router.extend({
         $(".js-theater").hide();
         $(".js-index").show();
         $(".js-movie").hide();
+    },
+    description : function(){
+        this.index();
+        var position = $("#Description").offset().top;
+        $('body,html').animate({scrollTop:position}, 500, 'swing');
+    },
+    story : function(){
+        this.index();
+        var position = $("#Story").offset().top;
+        $('body,html').animate({scrollTop:position}, 500, 'swing');
+    },
+    message : function(){
+        this.index();
+        var position = $("#Message").offset().top;
+        $('body,html').animate({scrollTop:position}, 500, 'swing');
     },
     movie : function(){
         $(".js-index").hide();
