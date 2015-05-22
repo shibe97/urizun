@@ -12,6 +12,7 @@ var Router = Backbone.Router.extend({
         "" : "index",
         "!/" : "index",
         "!/top" : "index",
+        "!/top2" : "index",
         "!/description" : "description",
         "!/story" : "story",
         "!/message" : "message",
@@ -24,19 +25,26 @@ var Router = Backbone.Router.extend({
         $(".js-theater").hide();
         $(".js-index").show();
         $(".js-movie").hide();
+        $('body,html').animate({scrollTop:0}, 500, 'swing');
     },
     description : function(){
-        this.index();
+        $(".js-theater").hide();
+        $(".js-index").show();
+        $(".js-movie").hide();
         var position = $("#Description").offset().top;
         $('body,html').animate({scrollTop:position}, 500, 'swing');
     },
     story : function(){
-        this.index();
+        $(".js-theater").hide();
+        $(".js-index").show();
+        $(".js-movie").hide();
         var position = $("#Story").offset().top;
         $('body,html').animate({scrollTop:position}, 500, 'swing');
     },
     message : function(){
-        this.index();
+        $(".js-theater").hide();
+        $(".js-index").show();
+        $(".js-movie").hide();
         var position = $("#Message").offset().top;
         $('body,html').animate({scrollTop:position}, 500, 'swing');
     },
@@ -44,10 +52,12 @@ var Router = Backbone.Router.extend({
         $(".js-index").hide();
         $(".js-theater").hide();
         $(".js-movie").show();
+        $('body,html').animate({scrollTop:0}, 1, 'swing');
     },
     theater : function(){
         $(".js-index").hide();
         $(".js-theater").show();
         $(".js-movie").hide();
+        $('body,html').animate({scrollTop:0}, 1, 'swing');
     }
 });

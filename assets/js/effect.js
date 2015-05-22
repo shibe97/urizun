@@ -25,23 +25,23 @@
     
     $(".js-top").on("click", function(){
         var position = $("#Top").offset().top;
-        $('body,html').animate({scrollTop:position}, 1000, 'swing');
+        $('body,html').animate({scrollTop:position}, 500, 'swing');
     });
     $(".js-top2").on("click", function(){
         var position = $("#Top2").offset().top;
-        $('body,html').animate({scrollTop:position}, 1000, 'swing');
+        $('body,html').animate({scrollTop:position}, 500, 'swing');
     });
     $(".js-description").on("click", function(){
         var position = $("#Description").offset().top;
-        $('body,html').animate({scrollTop:position}, 1000, 'swing');
+        $('body,html').animate({scrollTop:position}, 500, 'swing');
     });
     $(".js-story").on("click", function(){
         var position = $("#Story").offset().top;
-        $('body,html').animate({scrollTop:position}, 1000, 'swing');
+        $('body,html').animate({scrollTop:position}, 500, 'swing');
     });
     $(".js-message").on("click", function(){
         var position = $("#Message").offset().top;
-        $('body,html').animate({scrollTop:position}, 1000, 'swing');
+        $('body,html').animate({scrollTop:position}, 500, 'swing');
     });
     
     $(".js-menu").on("click", function(){
