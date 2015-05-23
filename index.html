@@ -7,8 +7,8 @@
         <meta name="keywords" content="沖縄戦,沖縄戦史,終戦,戦後70年,基地問題,シグロ,SIGLO,山上徹二郎,ジャン・ユンカーマン,公式サイト,オフィシャルサイト,ドキュメンタリー,映画,岩波ホール,沖縄桜坂劇場,劇場情報">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
         <link rel="stylesheet" media="(max-width: 640px)" href="assets/css/sp.css">
-        <link rel="stylesheet" media="(min-width: 640px) and (max-width: 940px)" href="assets/css/tablet.css">
-        <link rel="stylesheet" media="(min-width: 941px)" href="assets/css/pc.css">
+        <link rel="stylesheet" media="(min-width: 640px) and (max-width: 1180px)" href="assets/css/tablet.css">
+        <link rel="stylesheet" media="(min-width: 1181px)" href="assets/css/pc.css">
         <link rel="shortcut icon" href="assets/images/favicon_64.png">
         <meta property="og:title" content="『沖縄うりずんの雨（戦後70年、沖縄は問いかける）』公式サイト">
         <meta property="og:description" content="戦争に翻弄されてきた沖縄の近現代史を見つめ、人々の尊厳を伝える長編ドキュメンタリー映画。『老人と海』『映画日本国憲法』のジャン・ユンカーマン監督最新作！">
@@ -29,20 +29,24 @@
             <header class="Header">
                 <div class="Header__sns Sns cf">
                     <div class="Sns__facebook fb-like" data-href="http://okinawa-urizun.com" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
-                    <a href="https://twitter.com/share" class="Sns__twitter twitter-share-button" data-lang="ja" data-hashtags="うりずんの雨">ツイート</a>
+                    <a href="https://twitter.com/share" class="Sns__twitter twitter-share-button" data-lang="ja" data-hashtags="うりずんの雨" data-url="http://okinawa-urizun.com">ツイート</a>
                 </div>
                 <a class="Header__menu js-menu" href="javascript:void(0);">メニュー</a>
                 <nav class="Header__nav js-nav">
                     <ul>
-                        <li class="TopLink1"><a href="#Top">トップ</a></li>
-                        <li class="TopLink2"><a href="#Top2">トップ</a></li>
+                        <li class="TopLink1 js-top"><a href="#!/top">トップ</a></li>
+                        <li class="TopLink2 js-top2"><a href="#!/top2">トップ</a></li>
                         <li><a href="https://www.facebook.com/okinawa.urizun" target="_blank">最新情報</a></li>
-                        <li><a href="movie.html">予告編</a></li>
-                        <li><a href="theater.html">劇場情報</a></li>
+                        <li class="js-description"><a href="#!/description">作品情報</a></li>
+                        <li class="js-story"><a href="#!/story">製作にあたり</a></li>
+                        <li class="js-message"><a href="#!/message">監督の言葉</a></li>
+                        <li><a href="#!/movie">予告編</a></li>
+                        <li><a href="#!/theater">劇場情報</a></li>
                         <li><a href="http://www.cine.co.jp/detail/0131.html" target="_blank">特別鑑賞券販売</a></li>
                     </ul>
                 </nav>    
-            </header>    
+            </header>
+            <div class="js-index">
             <section id="Top" class="Top">
                 <div class="Top__container">
                     <div>
@@ -141,13 +145,168 @@
                     </dl>
                 </div>    
             </section>
+            </div>
+            <div class="js-theater">
+            <section class="Theater">
+                <h1 class="Theater__title">劇場情報</h1>
+                <p class="Theater__subTitle">70年目の沖縄慰霊の日（6/23）に合わせ<br>6月20日（土）より東京・岩波ホール、沖縄・桜坂劇場<br>ほか全国順次ロードショー</p>
+                <div class="Theater__whiteArea">
+                    <table class="Theater__table">
+                        <tr>
+                            <th>都道府県</th>
+                            <th>会場</th>
+                            <th>お問い合わせ</th>
+                            <th>上映日</th>
+                            <th>備考</th>
+                        </tr>
+                        <tr>
+                            <td>東京</td>
+                            <td><a href="http://www.iwanami-hall.com/" target="iwanami-hall">岩波ホール</a></td>
+                            <td class="phone">03-3263-5252</td>
+                            <td>6/20（土）〜</td>
+                            <td>
+                                <p>上映時間<br>11:00/14:30/18:30</p>
+                                <a class="TheaterSp__button" href="http://www.cine.co.jp/detail/0131.html" target="_blank">特別鑑賞券のご購入はこちら</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>沖縄</td>
+                            <td><a href="http://www.sakura-zaka.com/" target="sakura-zaka">桜坂劇場</a></td>
+                            <td class="phone">098-860-9555</td>
+                            <td>6/20（土）〜</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>愛知</td>
+                            <td><a href="http://homepage3.nifty.com/meien/" target="meien">名演小劇場</a></td>
+                            <td class="phone">052-931-1701</td>
+                            <td>8/8（土）〜</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td>大阪</td>
+                            <td><a href="http://www.nanagei.com/" target="geijutsu">第七藝術劇場</a></td>
+                            <td class="phone">06-6302-2073</td>
+                            <td>今夏</td>
+                            <td>-</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <section class="TheaterSp">
+                <h1 class="TheaterSp__title">劇場情報</h1>
+                <div class="TheaterSp__whiteArea">
+                    <p class="TheaterSp__subTitle">70年目の沖縄慰霊の日(6/23)にあわせ<br>6月20日(土)より東京・岩波ホール、沖縄・桜坂劇場<br>ほか全国順次ロードショー</p>
+                    <table class="TheaterSp__table">
+                        <tr>
+                            <th>都道府県</th>
+                            <td>東京</td>
+                        </tr>
+                        <tr>
+                            <th>会場</th>
+                            <td><a href="http://www.iwanami-hall.com/" target="iwanami-hall">岩波ホール</a></td>
+                        </tr>
+                        <tr>
+                            <th>お問い合わせ</th>
+                            <td class="phone">03-3263-5252</td>
+                        </tr>
+                        <tr>
+                            <th>上映日</th>
+                            <td>6/20（土）〜</td>
+                        </tr>
+                        <tr>
+                            <th>備考</th>
+                            <td>
+                                <p>上映時間<br>11:00/14:30/18:30</p>
+                                <a class="TheaterSp__button" href="http://www.cine.co.jp/detail/0131.html" target="_blank">特別鑑賞券のご購入はこちら</a>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="TheaterSp__table">
+                        <tr>
+                            <th>都道府県</th>
+                            <td>沖縄</td>
+                        </tr>
+                        <tr>
+                            <th>会場</th>
+                            <td><a href="http://www.sakura-zaka.com/" target="sakura-zaka">桜坂劇場</a></td>
+                        </tr>
+                        <tr>
+                            <th>お問い合わせ</th>
+                            <td class="phone">098-860-9555</td>
+                        </tr>
+                        <tr>
+                            <th>上映日</th>
+                            <td>6/20（土）〜</td>
+                        </tr>
+                        <tr>
+                            <th>備考</th>
+                            <td>-</td>
+                        </tr>
+                    </table>
+                    <table class="TheaterSp__table">
+                        <tr>
+                            <th>都道府県</th>
+                            <td>愛知</td>
+                        </tr>
+                        <tr>
+                            <th>会場</th>
+                            <td><a href="http://homepage3.nifty.com/meien/" target="meien">名演小劇場</a></td>
+                        </tr>
+                        <tr>
+                            <th>お問い合わせ</th>
+                            <td class="phone">052-931-1701</td>
+                        </tr>
+                        <tr>
+                            <th>上映日</th>
+                            <td>8/8（土）〜</td>
+                        </tr>
+                        <tr>
+                            <th>備考</th>
+                            <td>-</td>
+                        </tr>
+                    </table>
+                    <table class="TheaterSp__table">
+                        <tr>
+                            <th>都道府県</th>
+                            <td>大阪</td>
+                        </tr>
+                        <tr>
+                            <th>会場</th>
+                            <td><a href="http://www.nanagei.com/" target="geijutsu">第七藝術劇場</a></td>
+                        </tr>
+                        <tr>
+                            <th>お問い合わせ</th>
+                            <td class="phone">06-6302-2073</td>
+                        </tr>
+                        <tr>
+                            <th>上映日</th>
+                            <td>今夏</td>
+                        </tr>
+                        <tr>
+                            <th>備考</th>
+                            <td>-</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            </div>
+            <section class="Movie js-movie">
+                <h1 class="Movie__title">予告編</h1>
+                <div class="Movie__whiteArea">
+                    <iframe class="Movie__iframe" src="https://www.youtube.com/embed/ZUWJtY4G0-8?rel=0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </section>
             <footer class="Footer">
                 <p class="Footer__copyright">Copyright © 2015, SIGLO Ltd. All Rights Reserved.</p>
             </footer>
         </div>
         <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+        <script type="text/javascript" src="bower_components/backbone/backbone-min.js"></script>
         <script type="text/javascript" src="assets/js/effect.js"></script>
         <script type="text/javascript" src="assets/js/jquery.ripples.js"></script>
         <script type="text/javascript" src="assets/js/ripple.js"></script>
+        <script type="text/javascript" src="assets/js/router.js"></script>
     </body>
 </html>
