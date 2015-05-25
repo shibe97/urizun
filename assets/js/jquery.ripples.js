@@ -142,7 +142,8 @@
 
 			gl.framebufferTexture2D(gl.FRAMEBUFFER, gl.COLOR_ATTACHMENT0, gl.TEXTURE_2D, texture, 0);
 			if (gl.checkFramebufferStatus(gl.FRAMEBUFFER) != gl.FRAMEBUFFER_COMPLETE) {
-				throw new Error('Rendering to this texture is not supported (incomplete framebuffer)');
+				//throw new Error('Rendering to this texture is not supported (incomplete framebuffer)');
+                return false;
 			}
 			
 			gl.bindTexture(gl.TEXTURE_2D, null);
