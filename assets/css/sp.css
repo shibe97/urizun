@@ -81,6 +81,12 @@ input, select {
 .w620px {
   width: 620px; }
 
+.w5em {
+  width: 5em; }
+
+.w7em {
+  width: 7em; }
+
 .mt5px {
   margin-top: 5px; }
 
@@ -101,6 +107,9 @@ input, select {
 
 .pt40px {
   padding-top: 40px; }
+
+.f12 {
+  font-size: 12px; }
 
 .f14 {
   font-size: 14px; }
@@ -583,9 +592,9 @@ input, select {
     width: 100%; }
     .TheaterSp__table th {
       background-color: #ccc;
-      font-size: 14px;
+      font-size: 12px;
       height: 45px;
-      width: 100px;
+      width: 72px;
       text-align: left;
       padding: 0 15px;
       vertical-align: middle;
