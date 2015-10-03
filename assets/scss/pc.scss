@@ -493,6 +493,10 @@
         margin: 0 auto;
         border: 1px solid #1e2a69;
 
+        tr.end {
+            background-color: #ccc;
+            opacity: 0.5;
+        }
         th {
             background-color: #ccc;
             font-size: 12px;

@@ -440,6 +440,10 @@
         margin: 0 auto 30px;
         border: 1px solid #1e2a69;
 
+        &.end {
+            background-color: #ccc;
+            opacity: 0.5;
+        }
         th {
             background-color: #ccc;
             font-size: 14px;

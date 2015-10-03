@@ -553,6 +553,9 @@ input, select {
     width: 940px;
     margin: 0 auto;
     border: 1px solid #1e2a69; }
+    .Theater__table tr.end {
+      background-color: #ccc;
+      opacity: 0.5; }
     .Theater__table th {
       background-color: #ccc;
       font-size: 12px;
