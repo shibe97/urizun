@@ -138,6 +138,24 @@
         top: 50px;
         right: 260px;
     }
+    &__award1 {
+        background: url("../images/icn_win_01.png") no-repeat center;
+        width: 210px;
+        height: 50px;
+        position: absolute;
+        top: 60px;
+        left: 50%;
+        margin-left: -230px;
+    }
+    &__award2 {
+        background: url("../images/icn_win_02.png") no-repeat center;
+        width: 180px;
+        height: 50px;
+        position: absolute;
+        top: 60px;
+        left: 50%;
+        margin-left: 20px;
+    }
     &__scroll {
         text-align: center;
         background: url("../images/icn_scroll_01.png") no-repeat center bottom;
