@@ -226,6 +226,13 @@
         background-position: left center;
         padding-left: 12px;
     }
+
+    &__award {
+        margin-top: 10px;
+        background: url("../images/icn_win_03.png") no-repeat center top;
+        height: 50px;
+        background-size: 300px 50px;
+    }
 }
 
 .Description {

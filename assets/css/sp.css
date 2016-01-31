@@ -366,6 +366,11 @@ input, select {
       .Production__hallName {
         background-image: url("../images/icn_arrow_02_2x.png");
         background-size: 9px 10px; } }
+  .Production__award {
+    margin-top: 10px;
+    background: url("../images/icn_win_03.png") no-repeat center top;
+    height: 50px;
+    background-size: 300px 50px; }
 
 .Description {
   background-color: #fff; }
