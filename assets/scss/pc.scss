@@ -502,9 +502,23 @@
         text-align: center;
         padding-bottom: 160px;
     }
+    &__largeTxt {
+        font-size: 120%;
+    }
+    &__message {
+        font-size: 150%;
+    }
+    &__grayArea {
+        background-color: #eee;
+        padding: 60px 0;
+    }
     &__whiteArea {
         background-color: #fff;
         padding: 60px 0;
+    }
+    &__contentArea {
+        width: 940px;
+        margin: 0 auto;
     }
     &__table {
         width: 940px;

@@ -90,6 +90,9 @@ input, select {
 .mt5px {
   margin-top: 5px; }
 
+.mt10px {
+  margin-top: 10px; }
+
 .mt20px {
   margin-top: 20px; }
 
@@ -590,7 +593,15 @@ input, select {
     font-size: 12px; }
   .TheaterSp__whiteArea {
     background-color: #fff;
-    padding: 20px 10px; }
+    padding: 30px 10px; }
+  .TheaterSp__largeTxt {
+    font-size: 110%; }
+  .TheaterSp__message {
+    font-size: 120%; }
+  .TheaterSp__grayArea {
+    background-color: #eee;
+    padding: 20px 10px;
+    font-size: 88%; }
   .TheaterSp__table {
     margin: 0 0 30px;
     border: 1px solid #1e2a69;

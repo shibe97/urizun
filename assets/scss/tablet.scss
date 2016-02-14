@@ -433,7 +433,18 @@
     }
     &__whiteArea {
         background-color: #fff;
+        padding: 30px 20px;
+    }
+    &__largeTxt {
+        font-size: 110%;
+    }
+    &__message {
+        font-size: 120%;
+    }
+    &__grayArea {
+        background-color: #eee;
         padding: 20px;
+        font-size: 88%;
     }
     &__table {
         width: 100%;
