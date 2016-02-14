@@ -138,6 +138,15 @@
         top: 50px;
         right: 260px;
     }
+    &__cf {
+        background: url("../images/bnr_cf_01.png") no-repeat center;
+        width: 300px;
+        height: 265px;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+        display: block;
+    }
     &__award1 {
         background: url("../images/icn_win_01.png") no-repeat center;
         width: 210px;
